@@ -1,0 +1,100 @@
+﻿*{
+	margin: 0;
+	padding: 0;
+	font-family: helvetica Neue;
+	font-weight: lighter;
+}
+
+html,body{
+	background-color: #e2e2e2;
+
+}
+
+header{
+	width: 1350px;
+	height: 50px;
+	background: #333;
+	color: #fff;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+
+.contenedor{
+	width: 98%;
+	margin: auto;
+}
+
+h1{
+	float: left;
+}
+
+section#formulario{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	width: 400px;
+	min-height: 100px;
+	background-color: white;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+p#titulo{
+	font-size: 1.6em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+input[type="texto"], input[type="mail"], input[type="telefono"]{
+	width: 360px;
+	height: 35px;
+	margin-left: 20px;
+	margin-top: 10px;
+	padding-left: 10px;
+	font-size: 1.1em;
+	outline: none;
+	border: 0px;
+	background-color: #dcdcdc;
+	border-radius: 5px;
+}
+
+button[type="submit"]{
+	margin: 20px;
+	margin-bottom: 20px;
+	width: 360px;
+	height: 40px;
+	outline: none;
+	border: 0px;
+	background-color: #75b6dc;
+	color: white;
+	font-size: 1.2em;
+	border-radius: 5px;
+	-wedkit-box-shadow:0px 5px 0px #659dbf;
+}
+
+footer .contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.copy {
+	font-size: 20px;
+}
+
+.sociales {
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.sociales a {
+	color: #333;
+	text-decoration: none;
+}
